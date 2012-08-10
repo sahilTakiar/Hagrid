@@ -161,7 +161,7 @@ public class JobLogFetch extends TimerTask {
 	public void run() {
 		try {
 			for ( JobStatus stat : client.getAllJobs() ) {				
-				if ( stat.getUsername().equals("data_svc") && !jobsSeen.contains(stat.getJobID().toString()) ) {
+				if ( !jobsSeen.contains(stat.getJobID().toString()) ) {
 					totalTime = 0;
 					makeTable(stat.getJobID());
 					writeMapAndReduceCounters(stat.getJobID());
