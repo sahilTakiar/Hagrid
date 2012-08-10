@@ -1,5 +1,22 @@
-      Apache Hagrid
-      Copyright 2012 The Apache Software Foundation
+Apache Hagrid
+Copyright 2012 The Apache Software Foundation
 
-      This product includes software developed at
-      The Apache Software Foundation (http://www.apache.org/).
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This project includes/uses hadoop (http://hadoop.apache.org/)
+
+This project includes/uses commons-lang (http://commons.apache.org/lang/)
+
+This project includes/uses commons-logging (http://commons.apache.org/logging/)
+
+This project includes/uses jackson (http://jackson.codehaus.org/)
+
+This project includes/uses jetty (http://jetty.codehaus.org/jetty/)
+
+This project includes/uses slf4j (http://www.slf4j.org/index.html)
+
+
+
+
+
