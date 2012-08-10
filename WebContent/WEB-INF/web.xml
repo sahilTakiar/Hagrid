@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>TaskServlet</servlet-name>
+    <servlet-class>servlets.TaskServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TaskServlet</servlet-name>
+    <url-pattern>/TaskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>JMXServlet</servlet-name>
+  	<servlet-class>servlets.JMXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>JMXServlet</servlet-name>
+  	<url-pattern>/JMXServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
